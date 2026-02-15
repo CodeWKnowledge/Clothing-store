@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://klassicplug.com/sitemap.xml
