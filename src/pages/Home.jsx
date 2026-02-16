@@ -14,7 +14,7 @@ const Home = () => {
         { name: 'Jeans', image: '/Images/Trousers/Jeans-1.jpg', size: 'col-span-1' },
         { name: 'Hoodies', image: '/Images/Trousers/Sweatpant-1.jpg', size: 'col-span-1' },
         { name: 'Caps', image: '/Images/Caps/Cap-1.jpg', size: 'col-span-1' },
-        { name: 'Beanies', image: '/Images/Caps/Cap-3.jpg', size: 'col-span-1' },
+        { name: 'Beanies', image: '/Images/Caps/Beanie-1.jpg', size: 'col-span-1' },
     ];
 
     return (

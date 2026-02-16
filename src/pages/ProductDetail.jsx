@@ -61,7 +61,7 @@ const ProductDetail = () => {
                         </div>
 
                         {/* Main Image */}
-                        <div className="flex-grow max-w-md  order-1 md:order-2 relative aspect-[4/5] bg-brand-gray-900 group overflow-hidden mx-auto md:mx-0">
+                        <div className="flex-grow max-w-md order-1 md:order-2 relative aspect-[4/5] lg:aspect-[1/1] bg-brand-gray-900 group overflow-hidden mx-auto md:mx-0">
                             <motion.img
                                 key={selectedImage}
                                 initial={{ opacity: 0 }}
