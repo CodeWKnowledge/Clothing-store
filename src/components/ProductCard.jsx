@@ -25,7 +25,7 @@ const ProductCard = ({ product }) => {
         >
             <Link to={`/product/${product.id}`} className="block relative overflow-hidden bg-brand-gray-900 border border-white/5">
                 {/* Image */}
-                <div className="aspect-[3/4] overflow-hidden grayscale group-hover:grayscale-0 transition-all duration-700">
+                <div className="aspect-[3/4] overflow-hidden lg:grayscale lg:group-hover:grayscale-0 transition-all duration-700">
                     <img
                         src={product.images[0]}
                         alt={product.name}

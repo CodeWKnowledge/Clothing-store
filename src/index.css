@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'Fugaz One';
+  src: url('/fonts/Fugaz_One/FugazOne-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme {
   --color-primary: #0A0A0A;
   --color-accent: #22C55E;
@@ -10,8 +18,8 @@
   --color-brand-gray-800: #262626;
   --color-brand-gray-900: #171717;
 
-  --font-sans: "Inter", "sans-serif";
-  --font-heading: "Outfit", "sans-serif";
+  --font-sans: "Fugaz One", "Inter", "sans-serif";
+  --font-heading: "Fugaz One", "Outfit", "sans-serif";
 
   --letter-spacing-widest: 0.25em;
   --letter-spacing-mega: 0.5em;

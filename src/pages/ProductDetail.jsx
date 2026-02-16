@@ -53,7 +53,7 @@ const ProductDetail = () => {
                                 <button
                                     key={idx}
                                     onClick={() => setSelectedImage(img)}
-                                    className={`w-20 aspect-[3/4] border ${selectedImage === img ? 'border-accent' : 'border-white/10'} grayscale hover:grayscale-0 transition-all`}
+                                    className={`w-20 aspect-[3/4] border ${selectedImage === img ? 'border-accent' : 'border-white/10'} lg:grayscale lg:hover:grayscale-0 transition-all`}
                                 >
                                     <img src={img} alt="" className="w-full h-full object-cover" />
                                 </button>
@@ -68,7 +68,7 @@ const ProductDetail = () => {
                                 animate={{ opacity: 1 }}
                                 src={selectedImage}
                                 alt={product.name}
-                                className="w-full h-full object-cover grayscale transition-all duration-700 group-hover:grayscale-0 group-hover:scale-110 cursor-zoom-in"
+                                className="w-full h-full object-cover lg:grayscale transition-all duration-700 lg:group-hover:grayscale-0 group-hover:scale-110 cursor-zoom-in"
                             />
                             <button className="absolute top-6 right-6 p-4 bg-black/40 backdrop-blur-md rounded-full hover:bg-white hover:text-black transition-colors">
                                 <FavouriteIcon size={24} /> {/* Changed from HeartAddIcon */}
